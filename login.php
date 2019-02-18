@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 session_start();
 
 include ('connect.php');
@@ -32,5 +32,7 @@ else{
 	}
 }
 mysqli_close($conn);
+
+echo "Aum";
 
 ?>
